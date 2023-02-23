@@ -4,11 +4,9 @@
 int main()
 {
     int a,b,c;
-    float srednia;
-    scanf("%i",&a);
-    scanf("%i",&b);
-    scanf("%i",&c);
-    srednia=(a+b+c)/3;
-    printf("Srednia %lf",srednia);
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    printf("Srednia %lf",(double)(a+b+c)/3);
     return 0;
 }
